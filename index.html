@@ -7,34 +7,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Marco Beraldo">
     <meta name="description" content="Discord">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 
 <body>
     <!-- header -->
-    <header>
-        <div class="nav-section border-black flex-container">
-            <div class="logo border-black"> LOGO</div>
-            <div class="nav-bar border-black">
-                <a href="">scarica</a>
-                <a href="">perchè</a>
-                <a href="">nitro</a>
-                <a href="">sicurezza</a>
-                <a href="">assistenza</a>
+    <header class="bgc-blue">
+        <div class="container">
+            <div class="nav-section flex-container">
+                <div class="img-logo"><img src="img/logo.svg" alt="logo"></div>
+                <div class="nav-bar flex-container">
+                    <a href="">Scarica</a>
+                    <a href="">Perché Discord</a>
+                    <a href="">Nitro</a>
+                    <a href="">Sicurezza</a>
+                    <a href="">Assistenza</a>
+                </div>
+                <div><button class="round-corner accedi"> Accedi</button></div>
             </div>
-            <button class="accedi border-black"> accedi</button>
         </div>
-        <div class="intro border-black flex-container">
+        <div class="intro flex-container">
             <div class="intro-container">
-                <h1 class="border-black">POSTO PER PARLARE</h1>
-                <p class="border-black"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, minus non,
-                    error perspiciatis praesentium incidunt quia ipsa sapiente ipsum iusto, asperiores fuga suscipit
-                    quae
-                    aliquid ratione adipisci vitae molestiae accusamus.</p>
-                <div class="bottoni border-black">
-                    <button>scarica</button>
-                    <button>apri browser</button>
+                <h1>Il tuo posto per parlare</h1>
+                <p>Che tu faccia parte di un club scolastico, gruppo di gamer, comunità
+                    artistica
+                    mondiale, o semplicmente di un piccolo gruppo di amici che vuole passare il tempo assieme,
+                    Discord
+                    rende più facile chiacchierare ogni giornoi e ritrovarsi più spesso.</p>
+                <div class="bottoni">
+                    <button id="scarica" class="round-corner"><i class="fa-solid fa-down-long"></i> Scarica per
+                        Windows</button>
+                    <button id="apri" class="round-corner">Apri Discord nel tuo browser</button>
                 </div>
             </div>
         </div>
@@ -42,69 +49,67 @@
     <!-- main -->
     <main>
         <div class="bgc-wht flex-container ">
-            <div class="container border-black flex-container ">
-                <figure class="img-main border-black"></figure>
+            <div class="container flex-container ">
+                <figure class="img-main">
+                    <img src="img/item1.svg" alt="img1">
+                </figure>
                 <div class="testo flex-container">
-                    <h2>Lorem ipsum dolor sit amet consectetur elit.</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, deserunt! Esse odio,
-                        error
-                        quos
-                        fugiat repellendus porro velit architecto enim cum rerum neque nisi delectus repudiandae
-                        molestiae?
-                        Omnis, harum vero.</p>
+                    <h2>Un luogo a invito con tutto lo spazio necessario per parlare</h2>
+                    <p>I server Discord sono organizzati in canali tematici in cui puoi collaborare o semplicemente
+                        parlare della tua giornata senza intasare una chat di gruppo</p>
                 </div>
             </div>
         </div>
+
+        <img class="wave-img" src="img/wave.svg">
+
         <div class="bgc-gray flex-container">
-            <div class="container border-black flex-container ">
+            <div class="container flex-container ">
                 <div class="testo flex-container">
-                    <h2>Lorem ipsum dolor sit amet consectetur elit.</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, deserunt! Esse odio,
-                        error
-                        quos
-                        fugiat repellendus porro velit architecto enim cum rerum neque nisi delectus repudiandae
-                        molestiae?
-                        Omnis, harum vero.</p>
+                    <h2>Dove trovarsi é facile</h2>
+                    <p>Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che
+                        sei lì e unirsi istantaneamente senza dover chiamare.</p>
                 </div>
-                <figure class="img-main border-black"></figure>
+                <figure class="img-main"><img src="img/item2.svg" alt=""></figure>
             </div>
         </div>
+
+        <img class="wave-img-reverse" src="img/wave.svg">
+
         <div class="bgc-wht flex-container">
-            <div class="container border-black flex-container ">
-                <figure class="img-main border-black"></figure>
+            <div class="container flex-container ">
+                <figure class="img-main">
+                    <img src="img/item3.svg" alt="">
+                </figure>
                 <div class="testo flex-container">
-                    <h2>Lorem ipsum dolor sit amet consectetur elit.</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, deserunt! Esse odio,
-                        error
-                        quos
-                        fugiat repellendus porro velit architecto enim cum rerum neque nisi delectus repudiandae
-                        molestiae?
-                        Omnis, harum vero.</p>
+                    <h2>Da pochi a un Fandom</h2>
+                    <p>Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione e accesso ai
+                        membri personalizzabile. Concedi ai membri poteri speciali, crea canali privati e molto altro.
+                    </p>
                 </div>
             </div>
         </div>
+
+        <img class="wave-img" src="img/wave.svg">
+
         <div class="flex-container section bgc-gray">
-            <div class="container border-black flex-container">
+            <div class="container flex-container">
                 <div class="column flex-container">
-                    <h2>Lorem ipsum dolor sit amet consectetur elit.</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, deserunt! Esse odio,
-                        error
-                        quos
-                        fugiat repellendus porro velit architecto enim cum rerum neque nisi delectus repudiandae
-                        molestiae?
-                        Omnis, harum vero.</p>
-                    <figure class="img border-black"></figure>
+                    <h2>Tecnologia affidabile per tenersi in contatto</h2>
+                    <p>Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai cia
+                        oin video, guarda gli amici giocare in streaming o riunitevi in una sessione di disegno con la
+                        condivisione schermo.</p>
+                    <figure class="img">
+                        <img class="img-big" src="img/item4-big.svg" alt="">
+                    </figure>
+                    <div>
+                        <h2>Lorem ipsum dolor sit amet consectetur elit.</h2>
+                        <button>scarica per mac</button>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="flex-container bgc-end">
-            <div class="end-section container border-black flex-container">
-                <div class="end-section flex-container">
-                    <h2>Lorem ipsum dolor sit amet consectetur elit.</h2>
-                    <button>scarica per mac</button>
-                </div>
-            </div>
-        </div>
+
     </main>
     <!-- footer -->
     <footer class="bgc-black flex-container">
