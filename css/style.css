@@ -1,0 +1,173 @@
+/* generics */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* utils */
+
+.border-black {
+    border: 2px solid black;
+}
+
+.container {
+    width: 1200px;
+}
+
+.bgc-gray {
+    background-color: gray;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
+.bgc-wht {
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
+.bgc-end {
+    background-color: gray;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bgc-black {
+    background-color: #23272A;
+}
+
+/* header */
+header {
+    background-color: lightblue;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.nav-section {
+    justify-content: space-around;
+    align-items: center;
+    height: 50px
+}
+
+.intro {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.intro-container {
+    max-width: 700px;
+}
+
+
+/* main */
+
+.testo {
+    width: 400px;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-main {
+    width: 800px;
+    height: 400px;
+}
+
+.section {
+    justify-content: center;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.column {
+    flex-direction: column;
+    justify-content: space-around;
+    height: 500px;
+    align-items: center;
+}
+
+.img {
+    height: 300px;
+    width: 1200px;
+}
+
+.end-section {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+}
+
+.footer-container {
+    flex-direction: column;
+    width: 400px;
+    justify-content: flex-start;
+    padding: 30px;
+}
+
+ul {
+    align-items: flex-start;
+    list-style-type: none;
+    width: 200px;
+    height: 500px;
+    padding: 30px;
+}
+
+h3 {
+    text-align: left;
+}
+
+.link-list {
+    flex-direction: column;
+
+
+}
+
+li {
+    padding: 10px;
+}
+
+footer {
+    justify-content: center;
+    color: white;
+}
+
+#footer {
+
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: space-between;
+    width: 1200px;
+    align-items: center;
+}
+
+#register {
+    height: 50px;
+}
+
+#footer-container {
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+}
